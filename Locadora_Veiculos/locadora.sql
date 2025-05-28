@@ -89,7 +89,7 @@ INSERT INTO Manutencao (Veiculo_ID, Descricao, Data_Manutencao, Custo) VALUES
 (2, 'Alinhamento', '2025-03-28', 80.00);
 
 -- Lista todas as manutenções realizadas, exibindo a descrição, data e custo,
--- ordenadas do menor para o maior custo. 
+-- ordenadas do menor para o maior custo 
 select Descricao , Data_Manutencao , custo
 from manutencao 
 order BY custo ASC;
